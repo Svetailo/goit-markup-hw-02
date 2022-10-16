@@ -150,12 +150,13 @@ line-height: 1.19;}
 /* footer */
 .cellar{background-color: var(--footer-background-color);}
 
-.adress{
+.adress{font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--white-text-color)}
 
-.adress-link{font-size: 14px;
+.adress-link{font-style: normal;
+    font-size: 14px;
     line-height: 1.71;
     color: var(--footer-link-color);}
 
