@@ -48,6 +48,7 @@ color: var(--second-text-color);}
 
   .logo-web{
     color: var(--accent-text-color);} 
+    .logo-cellar{color: var(--primary-background-color);}
   
 /* hero */
     
@@ -90,7 +91,7 @@ background-color: var(--button-secondary-background-color)}
 .button-portfolio:focus{color: var(--primary-background-color);
     background-color: var(--button-primary-background-color);
 }
-
+/* visually-hidden */
 .visually-hidden {
     position: absolute;
       white-space: nowrap;
@@ -141,7 +142,40 @@ line-height: 1.19;}
     letter-spacing: 0.06em;
     color: var(--primaty-text-color);
 }
-.team-text{font-size: 16px;
+.portfolio-text{font-size: 16px;
     line-height: 1.88;
     color: var(--second-text-color);
 }
+
+/* footer */
+.cellar{background-color: var(--footer-background-color);}
+
+.adress{
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-text-color)}
+
+.adress-link{font-size: 14px;
+    line-height: 1.71;
+    color: var(--footer-link-color);}
+
+.adress-link:hover,
+.adress-link:focus{color: var(--accent-text-color);}
+
+.adress:hover,
+.adress:focus{color: var(--accent-text-color);}
+
+/* portfolio */
+
+.portfolio-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em}
+
+    .portfolio-text{
+font-size: 16px;
+line-height: 1.88;
+color: var(--second-text-color);
+    }
+
